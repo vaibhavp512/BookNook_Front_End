@@ -1,0 +1,16 @@
+.btn-css {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    background-color: #7FC8A9;
+    margin: auto;
+    display: block;
+}
+
+.signin-div {
+    margin: 2% auto auto;
+    width: 30%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    justify-content: center;
+}

@@ -1,0 +1,159 @@
+.navbar{
+background-color: #BD4B4B;
+color : #BD4B4B;
+}
+
+.App{
+  /* background-image : url('./booksImage\ \(3\).png'); */
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  padding-right: 0%;
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color: black;
+}
+
+.navbar-brand {
+  text-align: right;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+color : #BD4B4B;
+
+  margin-left: 2%;
+}
+
+.rightnav{
+  float: right !important;
+}
+
+.button-class{
+  font-size: 1rem;
+}
+
+.btn-css {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    background-color: #BECA5C;
+    margin: auto;
+    display: block;
+}
+.btn-primary{
+  border-color: white;
+}
+
+.btn-primary:hover{
+  border-color: white;
+  background-color: #F3F1F5;
+  color: black;
+}
+
+.signin-div {
+    margin: 2% auto auto;
+    width: 30%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    justify-content: center;
+}
+
+.signup-div {
+    width: 40%;
+    border-radius: 15px;
+    /* border: 5px solid #FFFF00; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 2% auto auto;
+    justify-content: center;
+
+}
+
+/* #left {
+  float: left;
+  width: 203px;
+  height: 800px;
+} */
+
+.vertical-aligner {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+
+/*home page categories diplay css */
+
+.myCardElement {
+    margin-top: 1em;
+    padding: 15px;
+    box-shadow: black;
+    cursor: pointer;
+}
+
+.card:hover {
+background-color : #F3F1F5;
+
+}
+
+.cat-card-title {
+    font: 40px / 1.5 'Pacifico', Helvetica
+}
+
+.home-card {
+  background-image: url('../src/images/background_home_edit.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* catBooks.js css */
+
+.pallette {
+    border-collapse: collapse;
+    cursor: pointer;
+}
+
+.card-title {
+    margin-top: 1em;
+}
+
+/* cart view */
+.order-card {
+    padding: 15px;
+    box-shadow: black;
+    cursor: pointer;
+}
+
+.bookImage {
+    width : 300px;
+    height: 350px;
+}
+
+.bookImageHome {
+  width: 250px;
+  height: 300px;
+}
+
+.text {
+  display: inline-block;
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 27ch;
+}
+
+
+
+
+
